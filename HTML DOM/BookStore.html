@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <style>
+        .book{
+            width: 200px;
+            height:200px;
+            border: 2px solid green;
+            background-color: aqua;
+            margin: auto;
+            padding: 10px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        #root{
+            display: flex;
+            flex-wrap: wrap;
+            margin:10px;
+            justify-content: space-between;
+            padding: 10px;
+            row-gap: 20px;
+        }
+    </style>
+</head>
+<body>
+   <h1><center>Book Store</center></h1> 
+   <button onclick="viewCart()">ViewCart</button>
+   <div id="root"></div>
+   <div id="cart">
+    <h1>My Cart</h1>
+   </div>
+</body>
+<script src="./BookStore.js"></script>
+</html>
